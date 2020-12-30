@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Never Alone</title>
+        <script src="assets/js/libs/phaser.js"></script>
+        <style>
+            @font-face {
+                font-family: "Agency";
+                src: url('assets/fonts/agency_fb.ttf');
+            }
+            body{
+                margin: 0;
+                padding:0;
+                background-color: #050709;
+                /*background-color: #000;*/
+            }
+            canvas{
+                /*margin: 0 auto;
+                margin-top: 90px;*/
+            }
+        </style>
+    </head>
+    <body>
+        <div id="game-div"></div>
+        <script src="assets/js/scripts/app.js"></script>
+        <script src="assets/js/scripts/utils.js"></script>
+        <script src="assets/js/scripts/data.js"></script>
+        <script src="assets/js/scripts/data/settings.js"></script>
+        <script src="assets/js/scripts/core.js"></script>
+        <script src="assets/js/scripts/core/menu.js"></script>
+        <script src="assets/js/scripts/core/lvlMenu.js"></script>
+        <script src="assets/js/scripts/core/loading.js"></script>
+        <script src="assets/js/scripts/core/optionsMenu.js"></script>
+        <script src="assets/js/scripts/core/creditsMenu.js"></script>
+        <script src="assets/js/scripts/core/keyInput.js"></script>
+        <script src="assets/js/scripts/core/gamepad.js"></script>
+        <script src="assets/js/scripts/core/scene.js"></script>
+        <script src="assets/js/scripts/core/platform.js"></script>
+        <script src="assets/js/scripts/core/player.js"></script>
+        <script src="assets/js/scripts/core/enemy.js"></script>
+        <script src="assets/js/scripts/core/item.js"></script>
+        <script src="assets/js/scripts/core/ui.js"></script>
+
+        <script>
+            window.onload = function() {
+                app.init();
+            };
+        </script>
+    </body>
+</html>
